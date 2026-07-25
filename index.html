@@ -1,289 +1,115 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>LillatroBeach - Piatti da Asporto</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-}
-
-body{
-background:#eef8ff;
-color:#1c3d5a;
-}
-
-header{
-background:linear-gradient(135deg,#0077b6,#00b4d8);
-color:white;
-padding:50px 20px;
-text-align:center;
-box-shadow:0 5px 20px rgba(0,0,0,.2);
-}
-
-header h1{
-font-size:40px;
-}
-
-header p{
-margin-top:10px;
-font-size:18px;
-opacity:.95;
-}
-
-.container{
-max-width:900px;
-margin:auto;
-padding:25px;
-}
-
-.category{
-margin-top:35px;
-}
-
-.category h2{
-background:#0096c7;
-color:white;
-padding:15px;
-border-radius:12px;
-font-size:26px;
-}
-
-.card{
-background:white;
-border-radius:18px;
-padding:18px;
-margin-top:15px;
-box-shadow:0 8px 25px rgba(0,0,0,.08);
-transition:.25s;
-}
-
-.card:hover{
-transform:translateY(-3px);
-}
-
-.top{
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-.name{
-font-size:22px;
-font-weight:700;
-}
-
-.price{
-font-size:22px;
-font-weight:bold;
-color:#0077b6;
-}
-
-.ingredients{
-margin-top:8px;
-color:#666;
-line-height:1.5;
-}
-
-footer{
-margin-top:50px;
-padding:25px;
-text-align:center;
-background:#0077b6;
-color:white;
-}
-
-@media(max-width:600px){
-
-header h1{
-font-size:30px;
-}
-
-.name{
-font-size:18px;
-}
-
-.price{
-font-size:18px;
-}
-
-.category h2{
-font-size:22px;
-}
-
-}
-
-</style>
-
-</head>
-
-<body>
-
 <header>
-
-<h1>🌊 LillatroBeach</h1>
-
-<p>Piatti da Asporto</p>
-
-<p>Disponibilità giornaliera fino a esaurimento.</p>
-
+    <h1>🌊 LillatroBeach</h1>
+    <p>Ingredienti e Allergeni</p>
+    <p>Le informazioni riportano esclusivamente gli allergeni certi ricavabili dagli ingredienti dichiarati.</p>
 </header>
 
 <div class="container">
 
-<div class="category">
-
 <h2>🥗 Piatti Freddi</h2>
 
 <div class="card">
-<div class="top">
-<div class="name">Riso Freddo</div>
-<div class="price">€7,00</div>
-</div>
-<div class="ingredients">
-Ortaggi misti in agrodolce, pomodorini, wurstel, olive nere, mais.
-</div>
+<h3>Riso Freddo</h3>
+<p><strong>Ingredienti:</strong> ortaggi misti in agrodolce, pomodorini, wurstel, olive nere, mais.</p>
+<p><strong>Allergeni certi:</strong> Nessuno determinabile con certezza dagli ingredienti indicati.</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Pasta Fredda</div>
-<div class="price">€7,00</div>
-</div>
-<div class="ingredients">
-Tonno, pomodorini, mozzarella, olive nere.
-</div>
+<h3>Pasta Fredda</h3>
+<p><strong>Ingredienti:</strong> tonno, pomodorini, mozzarella, olive nere.</p>
+<p><strong>Allergeni:</strong> 4 (Pesce), 7 (Latte).</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Cous Cous Vegetariano</div>
-<div class="price">€7,50</div>
-</div>
-<div class="ingredients">
-Melanzane, zucchine, pomodorini, olive nere.
-</div>
+<h3>Cous Cous Vegetariano</h3>
+<p><strong>Ingredienti:</strong> melanzane, zucchine, pomodorini, olive nere.</p>
+<p><strong>Allergeni:</strong> 1 (Glutine - cous cous).</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Insalata di Pollo</div>
-<div class="price">€8,50</div>
-</div>
-<div class="ingredients">
-Pollo, melanzane, zucchine, olive nere.
-</div>
+<h3>Insalata di Pollo</h3>
+<p><strong>Ingredienti:</strong> pollo, melanzane, zucchine, olive nere.</p>
+<p><strong>Allergeni certi:</strong> Nessuno determinabile con certezza.</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Insalata Mista</div>
-<div class="price">€3,50</div>
-</div>
-<div class="ingredients">
-Insalata, pomodoro.
-</div>
+<h3>Insalata Mista</h3>
+<p><strong>Ingredienti:</strong> insalata, pomodoro.</p>
+<p><strong>Allergeni:</strong> Nessuno.</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Insalatona</div>
-<div class="price">€7,50</div>
-</div>
-<div class="ingredients">
-Insalata, tonno, pomodorini, olive nere, mais, mozzarella.
-</div>
+<h3>Insalatona</h3>
+<p><strong>Ingredienti:</strong> insalata, tonno, pomodorini, olive nere, mais, mozzarella.</p>
+<p><strong>Allergeni:</strong> 4 (Pesce), 7 (Latte).</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Insalata Verde</div>
-<div class="price">€3,00</div>
-</div>
-</div>
-
-<div class="card">
-<div class="top">
-<div class="name">Caprese</div>
-<div class="price">€5,50</div>
-</div>
-<div class="ingredients">
-Pomodoro, mozzarella, basilico.
-</div>
+<h3>Insalata Verde</h3>
+<p><strong>Ingredienti:</strong> insalata.</p>
+<p><strong>Allergeni:</strong> Nessuno.</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Popone e Crudo</div>
-<div class="price">€6,50</div>
-</div>
-</div>
-
-<div class="card">
-<div class="top">
-<div class="name">Farro di Mare</div>
-<div class="price">€9,00</div>
-</div>
-<div class="ingredients">
-Misto mare, pomodorini, olive nere.
-</div>
+<h3>Caprese</h3>
+<p><strong>Ingredienti:</strong> pomodoro, mozzarella, basilico.</p>
+<p><strong>Allergeni:</strong> 7 (Latte).</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Vaschetta di Frutta</div>
-<div class="price">€3,50</div>
-</div>
-<div class="ingredients">
-Ananas, cocomero, melone.
-</div>
+<h3>Popone e Crudo</h3>
+<p><strong>Ingredienti:</strong> melone, prosciutto crudo.</p>
+<p><strong>Allergeni certi:</strong> Nessuno determinabile con certezza.</p>
 </div>
 
+<div class="card">
+<h3>Farro di Mare</h3>
+<p><strong>Ingredienti:</strong> farro, misto mare, pomodorini, olive nere.</p>
+<p><strong>Allergeni:</strong> 1 (Glutine), 2 (Crostacei se presenti nel misto mare), 4 (Pesce se presente), 14 (Molluschi se presenti).</p>
 </div>
 
-<div class="category">
+<div class="card">
+<h3>Vaschetta di Frutta</h3>
+<p><strong>Ingredienti:</strong> ananas, cocomero, melone.</p>
+<p><strong>Allergeni:</strong> Nessuno.</p>
+</div>
 
 <h2>🥩 Carpacci</h2>
 
 <div class="card">
-<div class="top">
-<div class="name">Bresaola</div>
-<div class="price">€8,00</div>
-</div>
-<div class="ingredients">
-Bresaola, rucola, grana, pomodorini.
-</div>
+<h3>Bresaola</h3>
+<p><strong>Ingredienti:</strong> bresaola, rucola, grana, pomodorini.</p>
+<p><strong>Allergeni:</strong> 7 (Latte).</p>
 </div>
 
 <div class="card">
-<div class="top">
-<div class="name">Salmone</div>
-<div class="price">€10,00</div>
-</div>
-<div class="ingredients">
-Salmone, rucola, avocado, pomodorini.
-</div>
+<h3>Salmone</h3>
+<p><strong>Ingredienti:</strong> salmone, rucola, avocado, pomodorini.</p>
+<p><strong>Allergeni:</strong> 4 (Pesce).</p>
 </div>
 
-</div>
+<h2>📋 Tabella Allergeni</h2>
+
+<table border="1" cellpadding="8" cellspacing="0" style="width:100%;border-collapse:collapse;">
+<tr><th>N.</th><th>Allergene</th></tr>
+<tr><td>1</td><td>Cereali contenenti glutine</td></tr>
+<tr><td>2</td><td>Crostacei</td></tr>
+<tr><td>3</td><td>Uova</td></tr>
+<tr><td>4</td><td>Pesce</td></tr>
+<tr><td>5</td><td>Arachidi</td></tr>
+<tr><td>6</td><td>Soia</td></tr>
+<tr><td>7</td><td>Latte e prodotti a base di latte</td></tr>
+<tr><td>8</td><td>Frutta a guscio</td></tr>
+<tr><td>9</td><td>Sedano</td></tr>
+<tr><td>10</td><td>Senape</td></tr>
+<tr><td>11</td><td>Semi di sesamo</td></tr>
+<tr><td>12</td><td>Anidride solforosa e solfiti</td></tr>
+<tr><td>13</td><td>Lupini</td></tr>
+<tr><td>14</td><td>Molluschi</td></tr>
+</table>
+
+<p style="margin-top:30px;font-size:14px;color:#666;">
+Le preparazioni vengono effettuate in una cucina dove sono presenti tutti gli allergeni previsti dal Regolamento (UE) 1169/2011. Per esigenze specifiche o allergie severe rivolgersi sempre al personale prima del consumo.
+</p>
 
 </div>
-
-<footer>
-
-LillatroBeach • Piatti da Asporto
-
-</footer>
-
-</body>
-
-</html>
